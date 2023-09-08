@@ -1,0 +1,21 @@
+﻿Feature / Dimension,CTGAN,CTGAN-ENN
+state,518.51,713.6
+account_length,1960.29,3138.88
+area_code,27.04,25.2
+international_plan,1080.06,1241.25
+voice_mail_plan,0.699,0.234
+number_vmail_messages,513.52,741.86
+total_day_minutes,3744.72,8202.13
+total_day_calls,570.73,894.46
+total_day_charge,818.69,950.7
+total_eve_minutes,1515.45,2849.94
+total_eve_calls,827.64,1243.96
+total_eve_charge,403.23,541.47
+total_night_minutes,1229.89,2031.49
+total_night_calls,571.19,799.53
+total_night_charge,53.27,88.02
+total_intl_minutes,1019.11,1418.51
+total_intl_calls,191.29,260.15
+total_intl_charge,1166.65,1758.9
+number_customer_service_calls,458.39,341.6
+,14,5
