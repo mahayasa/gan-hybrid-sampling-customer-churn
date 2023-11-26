@@ -11,7 +11,7 @@ CTGAN is a tabular GAN-based oversampling to address class imbalance but has a c
 
 - Best F1-Score (0.994) in Mobile dataset with Random Forest Algorithm
 - Best AUC (1.000) in Mobile dataset with XGBoost Algorithm
-- Best G-Mean in Telco 2 dataset with Random Forest and Gradient Boosting Algorithm
+- Best G-Mean (0.984) in Telco 2 dataset with Random Forest and Gradient Boosting Algorithm
 
 ## CTGAN-ENN Result in Bank Dataset 
 <img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/experiment%20image/bank%3Dctganenn.png" alt="Sample Image" width="70%">
