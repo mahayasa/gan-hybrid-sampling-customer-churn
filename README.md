@@ -13,7 +13,7 @@ CTGAN is a tabular GAN-based oversampling to address class imbalance but has a c
 - Best AUC (1.000) in Mobile dataset with XGBoost Algorithm
 - Best G-Mean (0.984) in Telco 2 dataset with Random Forest and Gradient Boosting Algorithm
 
-## CTGAN-ENN Result in Bank Dataset 
+## CTGAN-ENN visualization in Bank Dataset 
 <img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/experiment%20image/bank%3Dctganenn.png" alt="Sample Image" width="70%">
 
 We can see on the picture above, CTGAN-ENN cleary separated the customer churn class blue (not churn) and red (churn) and made machine learning algorithm easily to learn.
