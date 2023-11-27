@@ -1,6 +1,6 @@
 # CTGAN-ENN: A tabular GAN-based Hybrid Sampling Method for Imbalanced and Overlapped Data in Customer Churn Prediction
 
-Our research project in PhD program at AIDA (Applied Intelligence and Data Analytics) lab, College of Computing Khon Kaen University, Thailand
+Our research project in PhD program at AIDA (Applied Intelligence and Data Analytics) lab, College of Computing, Khon Kaen University, Thailand
 
 ## Overview
 
@@ -16,7 +16,7 @@ CTGAN is a tabular GAN-based oversampling to address class imbalance but has a c
 ## CTGAN-ENN visualization in Bank Dataset 
 <img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/experiment%20image/bank%3Dctganenn.png" alt="Sample Image" width="70%">
 
-We can see on the picture above, CTGAN-ENN cleary separated the customer churn class blue (not churn) and red (churn) and made machine learning algorithm easily to learn.
+We can see on the picture above, CTGAN-ENN clearly separated the customer churn class blue (not churn) and red (churn) and made machine learning algorithm easily to learn.
 
 ## Publication
 
