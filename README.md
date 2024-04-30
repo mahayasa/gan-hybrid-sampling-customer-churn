@@ -25,6 +25,51 @@ We can see on the picture above, CTGAN-ENN clearly separated the customer churn 
 Read the preprint version of paper here : https://www.researchsquare.com/article/rs-3644024/latest
 
 it's my pleasure if any of you have some feedback or question about this research.
+
+## Installation
+
+Install CTGAN-ENN using pip:
+
+```bash
+pip install ctganenn
+```
+
+## Usage
+
+### Variables
+
+- minClass: the minority class in the dataset (dataframe).
+- majClass: the majority class in the dataset (dataframe).
+- genData: how much data that you want generate from minorty class.
+- targetLabel: what is your target label name in dataset.
+
+### Example Usage
+```bash
+from ctganenn import CTGANENN
+```
+
+### use the CTGANENN function with 4 variables
+```bash
+CTGANENN(minClass,majClass,genData,targetLabel)
+```
+### Output
+the output of method are X and y :
+- X : all features of your dataset
+- y : target label of your dataset
+
+### Classification process
+you can process the X and y variable to the next step for classification stage
+For example using Decision Tree Classifier
+
+```bash
+model = tree.DecisionTreeClassifier()
+classification = model.fit(X, y)
+```
+
+## Limitation
+CTGAN-ENN on this version only works for binary classification
+
   
 ## Acknowledgments
-Thanks to <a href='https://m.kku.ac.th/'>Khon Kaen University</a> for Funding this research work.
+This work was supported by <a href='https://m.kku.ac.th/'>Khon Kaen University</a> ASEAN GMS grant and part of AIDA (Applied Intelligence and Data Analytics) lab in College of Computing, Khon Kaen University, Thailand.
+
