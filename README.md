@@ -27,6 +27,7 @@ Read the preprint version of paper here : https://www.researchsquare.com/article
 it's my pleasure if any of you have some feedback or question about this research.
 
 ## Installation
+[![PyPI version](https://badge.fury.io/py/ctganenn.svg)](https://badge.fury.io/py/ctganenn)
 
 Install CTGAN-ENN using pip:
 
