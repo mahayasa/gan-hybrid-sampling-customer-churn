@@ -40,8 +40,8 @@ pip install ctganenn
 
 - minClass: the minority class in the dataset (dataframe).
 - majClass: the majority class in the dataset (dataframe).
-- genData: how much data that you want generate from minorty class.
-- targetLabel: what is your target label name in dataset.
+- genData: how much data that you want to generate from minorty class (int).
+- targetLabel: what is your target label name in dataset (string).
 
 ### Example Usage
 ```bash
@@ -58,8 +58,7 @@ the output of method are X and y :
 - y : target label of your dataset
 
 ### Classification process
-you can process the X and y variable to the next step for classification stage
-For example using Decision Tree Classifier
+you can process the X and y variable to the next step for classification stage. For example using Decision Tree Classifier:
 
 ```bash
 model = tree.DecisionTreeClassifier()
