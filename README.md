@@ -50,7 +50,7 @@ from ctganenn import CTGANENN
 
 ### use the CTGANENN function with 4 variables
 ```bash
-CTGANENN(minClass,majClass,genData,targetLabel)
+X, y=CTGANENN(minClass,majClass,genData,targetLabel)
 ```
 ### Output
 the output of method are X and y :
