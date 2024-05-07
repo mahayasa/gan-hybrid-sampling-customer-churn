@@ -28,6 +28,7 @@ it's my pleasure if any of you have some feedback or question about this researc
 
 ## Installation
 [![PyPI version](https://badge.fury.io/py/ctganenn.svg)](https://badge.fury.io/py/ctganenn)
+[![Python Version](https://img.shields.io/badge/python-3.8%20%7C%203.9-blue)](https://badge.fury.io/py/ctganenn)
 
 Install CTGAN-ENN using pip:
 
