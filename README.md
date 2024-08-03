@@ -78,7 +78,7 @@ This work was supported by <a href='https://m.kku.ac.th/'>Khon Kaen University</
 
 ## Cite this work
 ```bibtex
-@misc{ctganenn2023,
+@misc{ctganenn,
   author = {I Nyoman Mahayasa Adiputra, Paweena Wanchai},
   title = {CTGAN-ENN: A tabular GAN-based Hybrid Sampling Method for Imbalanced and Overlapped Data in Customer Churn Prediction},
   year = {2023},
