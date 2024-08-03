@@ -74,3 +74,13 @@ CTGAN-ENN on this version only works for binary classification
 ## Acknowledgments
 This work was supported by <a href='https://m.kku.ac.th/'>Khon Kaen University</a> ASEAN GMS grant and part of AIDA (Applied Intelligence and Data Analytics) lab in College of Computing, Khon Kaen University, Thailand.
 
+---
+
+## Cite this work
+```bibtex
+@misc{ctganenn2023,
+  author = {I Nyoman Mahayasa Adiputra, Paweena Wanchai},
+  title = {CTGAN-ENN: A tabular GAN-based Hybrid Sampling Method for Imbalanced and Overlapped Data in Customer Churn Prediction},
+  year = {2023},
+  url = {https://doi.org/10.21203/rs.3.rs-3644024/v1}
+}
