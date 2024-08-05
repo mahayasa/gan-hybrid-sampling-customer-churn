@@ -1,5 +1,8 @@
 # CTGAN-ENN: A tabular GAN-based Hybrid Sampling Method for Imbalanced and Overlapped Data in Customer Churn Prediction
-
+<p align="left">
+<img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/image/kku.png" alt="Sample Image" width="20%">
+<img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/image/coc1.png" alt="Sample Image" width="20%">
+</p>
 Our research project in PhD program at AIDA (Applied Intelligence and Data Analytics) lab, College of Computing, Khon Kaen University, Thailand
 
 ## Overview
@@ -72,10 +75,6 @@ CTGAN-ENN on this version only works for binary classification
 
   
 ## Acknowledgments
-<p align="left">
-<img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/image/kku.png" alt="Sample Image" width="20%">
-<img src="https://github.com/mahayasa/gan-hybrid-sampling-customer-churn/blob/main/image/coc1.png" alt="Sample Image" width="20%">
-</p>
 This work was supported by <a href='https://m.kku.ac.th/'>Khon Kaen University</a> ASEAN GMS grant and part of AIDA (Applied Intelligence and Data Analytics) lab in College of Computing, Khon Kaen University, Thailand.
 
 
