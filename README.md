@@ -27,14 +27,6 @@ CTGAN is a tabular GAN-based oversampling to address class imbalance but has a c
 
 We can see on the picture above, CTGAN-ENN clearly separated the customer churn class blue (not churn) and red (churn) and made machine learning algorithm easily to learn.
 
-## Publication
-
-### Preprint
-
-Read the preprint version of paper here : https://www.researchsquare.com/article/rs-3644024/latest
-
-it's my pleasure if any of you have some feedback or question about this research.
-
 ## Installation
 Install CTGAN-ENN using pip:
 
@@ -88,6 +80,6 @@ This work was supported by <a href='https://m.kku.ac.th/'>Khon Kaen University</
 @misc{ctganenn,
   author = {I Nyoman Mahayasa Adiputra, Paweena Wanchai},
   title = {CTGAN-ENN: A tabular GAN-based Hybrid Sampling Method for Imbalanced and Overlapped Data in Customer Churn Prediction},
-  year = {2023},
-  url = {https://doi.org/10.21203/rs.3.rs-3644024/v1}
+  year = {2024},
+  url = {https://doi.org/10.1186/s40537-024-00982-x}
 }
