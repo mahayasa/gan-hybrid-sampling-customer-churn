@@ -1,0 +1,12 @@
+﻿Feature / Dimension,CTGAN,CTGAN-ENN
+CreditScore,321.13,313.3
+Geography,72.33,89.53
+Gender,66.54,48.23
+Age,4376.83,5088.33
+Tenure,603.72,1022.15
+Balance,803.89,303.76
+NumOfProducts,86.62,209.22
+HasCrCard,320.31,493.68
+IsActiveMember,243.95,190.91
+EstimatedSalary,158.58,794.05
+,6,4

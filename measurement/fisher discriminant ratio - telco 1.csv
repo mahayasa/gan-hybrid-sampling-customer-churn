@@ -1,0 +1,21 @@
+﻿Feature / Dimension,CTGAN,CTGAN-ENN
+gender,183.87,458.35
+SeniorCitizen,309.02,284.49
+Partner,740.64,1138.81
+Dependents,586.53,760.58
+tenure,3709.63,5723.78
+PhoneService,226.59,301.48
+MultipleLines,59.7,157.48
+InternetService,6.57,0.1
+OnlineSecurity,2021.87,2848.74
+OnlineBackup,1212.87,1755.3
+DeviceProtection,1251.42,1772.08
+TechSupport,386.49,294.82
+StreamingTV,108.7,199.98
+StreamingMovies,44.75,144.9
+Contract,3611.86,3913.28
+PaperlessBilling,133.42,55.86
+PaymentMethod,150.3,142.36
+MonthlyCharges,181.93,171.36
+TotalCharges,1516.27,2879.52
+,13,6
