@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ctganenn
+Version: 1.0.7
+Summary: CTGAN-ENN : Tabular GAN-based Hybrid sampling method
+Home-page: 
+Author: Mahayasa Adiputra
+Author-email: mahayasa.a@kkumail.com
+Description-Content-Type: text/markdown
+
+# CTGAN-ENN
+
+CTGAN-ENN : Tabular GAN-based Hybrid sampling method.
+- A sampling method that combine CTGAN (Conditional Tabular GAN) and ENN(Edited Nearest Neighboor)
+- CTGAN is a powerfull oversampling method based on GAN for tabular data
+- ENN is an efficient undersampling method to remove overlapped data 
+
+## Installation
+
+Install CTGAN-ENN using pip:
+
+```bash
+pip install ctganenn
+```
+
+## Usage
+
+### Variables
+
+- minClass: the minority class in the dataset (dataframe).
+- majClass: the majority class in the dataset (dataframe).
+- genData: how much data that you want generate from minorty class.
+- targetLabel: what is your target label name in dataset.
+
+### Example Usage
+```bash
+from ctganenn import CTGANENN
+```
+
+### use the CTGANENN function with 4 variables
+```bash
+X, y = CTGANENN(minClass,majClass,genData,targetLabel)
+```
+### Output
+the output of method are X and y :
+- X : all features of your dataset
+- y : target label of your dataset
+
+### Classification process
+you can process the X and y variable to the next step for classification stage. For example using Decision Tree Classifier:
+
+```bash
+model = tree.DecisionTreeClassifier()
+classification = model.fit(X, y)
+```
+
+### Cost Sensitive Learning
+This version support cost-sensitive learning by fine tuning class-weight using optuna, the supported model are SVM, Random Forest and LightBGM (other models come soon), the classifier model will run with the best class_weight parameter<br>
+Example Usage:
+```bash
+best_weight_svc = find_best_class_weight(X, y, model_name='svc', n_trials=1)
+classifier = SVC(class_weight=best_weight_svc)
+```
+
+### Variables
+- X : all features of your dataset
+- y : target label of your dataset
+- model_name : supported models are (svc, lightgbm and random_forest)
+- n_trials : the number of trial that optuna will run (default:1)
+
+## Limitation
+CTGAN-ENN on this version only works for binary classification
+
+
